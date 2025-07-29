@@ -88,7 +88,7 @@ section {
     transition: 0.3s ease-in-out;
 }
 
-.undo-button:hover {
+.undo-button:hover:active {
     background-color: #000000;
 }
 
@@ -120,8 +120,8 @@ section {
     margin-right: 9px;
 }
 
-.add-ingredient-button:hover,
-.del-all-ingredients-button:hover {
+.add-ingredient-button:hover:active,
+.del-all-ingredients-button:hover:active{
     background-color: #FAFAF8;
     color: #0C0C0C;
     border: 1px solid #0C0C0C;
@@ -167,8 +167,8 @@ ul.ingredients-list > li {
     transition: 0.3s ease-in-out;
 }
 
-.edit-ingredient-button:hover,
-.delete-ingredient-button:hover {
+.edit-ingredient-button:hover:active,
+.delete-ingredient-button:hover:active {
     background-color: #494747;
 }
 
@@ -270,9 +270,9 @@ ul.ingredients-list > li {
     outline: none;
 }
 
-.recipe-list-button:hover,
-.suggestions:hover,
-.close-recipe:hover {
+.recipe-list-button:hover:active,
+.suggestions:hover:active,
+.close-recipe:hover:active {
     background-color: #FAFAF8;
     color: #ed4a18;
 }
